@@ -3,7 +3,7 @@ function getTotalBooksCount(books) {
 }
 
 function getTotalAccountsCount(accounts) {
-  return accounts.length;
+   return accounts.length;
 }
 
 function getBooksBorrowedCount(books) {
@@ -59,7 +59,6 @@ function getMostPopularAuthors(books, authors) {
     .slice(0, 5);
 }
 
-
 module.exports = {
   getTotalBooksCount,
   getTotalAccountsCount,
@@ -68,3 +67,4 @@ module.exports = {
   getMostPopularBooks,
   getMostPopularAuthors,
 };
+
